@@ -2,7 +2,7 @@
 
 An Angular navigation animation library
 
-![NGX navigation animation](https://iili.io/HYeJiPe.md.gif)
+![NGX navigation animation](https://media.giphy.com/media/5nXOdVxtSt3USmwNEa/giphy.gif)
 
 ## Usage
 
