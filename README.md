@@ -2,7 +2,7 @@
 
 An Angular navigation animation library
 
-[![HYeJiPe.md.gif](https://iili.io/HYeJiPe.md.gif)](https://freeimage.host/i/HYeJiPe)
+![NGX navigation animation](https://iili.io/HYeJiPe.md.gif)
 
 ## Usage
 
