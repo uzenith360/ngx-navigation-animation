@@ -28,7 +28,8 @@
   "homepage": "https://github.com/uzenith360/ngx-navigation-animation#readme",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/",
-    "access": "public"
+    "access": "public",
+    "tag": "latest"
   },
   "files": [
     "dist/**/*"
@@ -69,7 +70,35 @@
   "release": {
     "branches": [
       "main",
-      "master"
+      "master",
+      {
+        "name": "beta",
+        "prerelease": true
+      }
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      [
+        "@semantic-release/changelog",
+        {
+          "changelogFile": "CHANGELOG.md"
+        }
+      ],
+      [
+        "@semantic-release/npm",
+        {
+          "pkgRoot": "dist/ngx-navigation-animation/"
+        }
+      ],
+      "@semantic-release/github",
+      [
+        "@semantic-release/git",
+        {
+          "assets": ["CHANGELOG.md"],
+          "message": "chore(release): set `package.json` to ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+        }
+      ]
     ]
   }
 }
