@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/uzenith360/ngx-navigation-animation/compare/v1.0.3...v1.0.4) (2023-01-30)
+
+
+### Bug Fixes
+
+* remove browser animations module to fix the Error: Providers from the  have already been loaded ([881d7ad](https://github.com/uzenith360/ngx-navigation-animation/commit/881d7ad25e0c6b5a8e9864758f2b537c4fc125c4))
+
 ## [1.0.3](https://github.com/uzenith360/ngx-navigation-animation/compare/v1.0.2...v1.0.3) (2023-01-28)
 
 
