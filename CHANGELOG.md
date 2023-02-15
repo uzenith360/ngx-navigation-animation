@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/uzenith360/ngx-navigation-animation/compare/v1.0.4...v1.0.5) (2023-02-15)
+
+
+### Bug Fixes
+
+* update dependencies ([27b2e1a](https://github.com/uzenith360/ngx-navigation-animation/commit/27b2e1a1035cb1f9d368c4a3acee631c6da27741))
+
 ## [1.0.4](https://github.com/uzenith360/ngx-navigation-animation/compare/v1.0.3...v1.0.4) (2023-01-30)
 
 
