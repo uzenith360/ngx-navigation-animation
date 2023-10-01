@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/uzenith360/ngx-navigation-animation/compare/v1.0.6...v1.1.0) (2023-10-01)
+
+
+### Features
+
+* upgrade to angular 16 ([03b64ae](https://github.com/uzenith360/ngx-navigation-animation/commit/03b64ae162c3d448f9f03b78205351eb5c6cc9de))
+
 ## [1.0.6](https://github.com/uzenith360/ngx-navigation-animation/compare/v1.0.5...v1.0.6) (2023-02-15)
 
 
