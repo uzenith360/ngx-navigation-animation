@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/uzenith360/ngx-navigation-animation/compare/v1.1.0...v1.2.0) (2024-01-12)
+
+
+### Features
+
+* upgrade to angular v17 ([55ef2d5](https://github.com/uzenith360/ngx-navigation-animation/commit/55ef2d5f8e4b62ed48b912ea191cc4025102a472))
+
 # [1.1.0](https://github.com/uzenith360/ngx-navigation-animation/compare/v1.0.6...v1.1.0) (2023-10-01)
 
 
