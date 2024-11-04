@@ -44,11 +44,12 @@
       "prefix": "app",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-angular:browser",
+          "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/ngx-navigation-animation-example-app",
+            "outputPath": {
+              "base": "dist/ngx-navigation-animation-example-app"
+            },
             "index": "projects/ngx-navigation-animation-example-app/src/index.html",
-            "main": "projects/ngx-navigation-animation-example-app/src/main.ts",
             "polyfills": [
               "zone.js"
             ],
@@ -61,7 +62,8 @@
               "@angular/material/prebuilt-themes/indigo-pink.css",
               "projects/ngx-navigation-animation-example-app/src/styles.css"
             ],
-            "scripts": []
+            "scripts": [],
+            "browser": "projects/ngx-navigation-animation-example-app/src/main.ts"
           },
           "configurations": {
             "production": {
@@ -80,9 +82,7 @@
               "outputHashing": "all"
             },
             "development": {
-              "buildOptimizer": false,
               "optimization": false,
-              "vendorChunk": true,
               "extractLicenses": false,
               "sourceMap": true,
               "namedChunks": true
