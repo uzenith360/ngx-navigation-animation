@@ -3,10 +3,11 @@ import { fadeAnimation, NavigateEventService } from 'ngx-navigation-animation';
 import { Subscription } from 'rxjs';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
-  animations: [fadeAnimation]
+    selector: 'app-root',
+    templateUrl: './app.component.html',
+    styleUrls: ['./app.component.css'],
+    animations: [fadeAnimation],
+    standalone: false
 })
 export class AppComponent {
   public isPageLoading: boolean = false;
