@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/uzenith360/ngx-navigation-animation/compare/v1.3.1...v1.4.0) (2025-03-21)
+
+
+### Features
+
+* migrate to standalone components ([f96c497](https://github.com/uzenith360/ngx-navigation-animation/commit/f96c497299fb7f5f21972d4b25c8b2d2c9355792))
+
 ## [1.3.1](https://github.com/uzenith360/ngx-navigation-animation/compare/v1.3.0...v1.3.1) (2024-12-16)
 
 
