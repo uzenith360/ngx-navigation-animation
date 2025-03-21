@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/uzenith360/ngx-navigation-animation/compare/v1.3.0...v1.3.1) (2024-12-16)
+
+
+### Bug Fixes
+
+* upgrade to angular 19 ([8158958](https://github.com/uzenith360/ngx-navigation-animation/commit/8158958d6a503a3d421f2b3cef58afea323a89af))
+
 # [1.3.0](https://github.com/uzenith360/ngx-navigation-animation/compare/v1.2.1...v1.3.0) (2024-11-04)
 
 
