@@ -1,13 +1,15 @@
 import { Component } from '@angular/core';
-import { fadeAnimation, NavigateEventService } from 'ngx-navigation-animation';
+import { fadeAnimation, NavigateEventService, NgxNavigationAnimationModule } from 'ngx-navigation-animation';
 import { Subscription } from 'rxjs';
+import { NgIf } from '@angular/common';
+import { RouterOutlet } from '@angular/router';
 
 @Component({
     selector: 'app-root',
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.css'],
     animations: [fadeAnimation],
-    standalone: false
+    imports: [NgIf, NgxNavigationAnimationModule, RouterOutlet]
 })
 export class AppComponent {
   public isPageLoading: boolean = false;

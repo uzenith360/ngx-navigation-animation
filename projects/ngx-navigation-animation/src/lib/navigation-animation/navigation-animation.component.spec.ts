@@ -10,13 +10,12 @@ describe('NavigationAnimationComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NavigationAnimationComponent ],
-      imports:[MatProgressBarModule, MatProgressSpinnerModule],
-      providers:[
-        // { provide: MatProgressBar, useValue: {} },
-        // { provide: MatProgressSpinner, useValue: {} },
-      ]
-    })
+    imports: [MatProgressBarModule, MatProgressSpinnerModule, NavigationAnimationComponent],
+    providers: [
+    // { provide: MatProgressBar, useValue: {} },
+    // { provide: MatProgressSpinner, useValue: {} },
+    ]
+})
     .compileComponents();
 
     fixture = TestBed.createComponent(NavigationAnimationComponent);
