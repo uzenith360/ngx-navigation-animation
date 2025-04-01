@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/uzenith360/ngx-navigation-animation/compare/v1.4.0...v1.4.1) (2025-04-01)
+
+
+### Bug Fixes
+
+* upgrade angular and run migrations ([b04d2b5](https://github.com/uzenith360/ngx-navigation-animation/commit/b04d2b5dce42329711bd023741350dd475c2d548))
+
 # [1.4.0](https://github.com/uzenith360/ngx-navigation-animation/compare/v1.3.1...v1.4.0) (2025-03-21)
 
 
