@@ -1,3 +1,15 @@
+# [1.5.0](https://github.com/uzenith360/ngx-navigation-animation/compare/v1.4.1...v1.5.0) (2025-09-16)
+
+
+### Bug Fixes
+
+* test deps ([fde211e](https://github.com/uzenith360/ngx-navigation-animation/commit/fde211e8c398d48d6131b146c3c06707485a8cd5))
+
+
+### Features
+
+* upgrade to angular 20 ([9ef5e6a](https://github.com/uzenith360/ngx-navigation-animation/commit/9ef5e6ad3a28dd58ec41cae14641b992af6fea88))
+
 ## [1.4.1](https://github.com/uzenith360/ngx-navigation-animation/compare/v1.4.0...v1.4.1) (2025-04-01)
 
 
